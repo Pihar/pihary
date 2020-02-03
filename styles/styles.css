@@ -1,0 +1,145 @@
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  max-width: 1920px;
+  display: block;
+  margin: 0;
+  overflow-x: hidden;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+.header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-name {
+  width: 603px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-social {
+  width: 159px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-block {
+  position: relative;
+  padding: 0 20px;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.info-block__img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  object-fit: contain;
+}
+.info-block > .test {
+  color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-block__order-button {
+  width: 270px;
+  height: 60px;
+  border: none;
+  background: #ff8213;
+  border-radius: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.info-block__other {
+  width: 640px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.info-block__other-icon {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+.info-block__other-complex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-block__other-deliv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-block__other-pay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-bag__bagbin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 50px;
+  border: none;
+  background: #ff8213;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+}
+.order-lunch__button {
+  width: 270px;
+  height: 60px;
+  background: #ff8213;
+  border-radius: 45px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer {
+  background: #e5e2dd;
+}
+.footer-bar {
+  background: url("./../images/footerback.png");
+  width: 1920px;
+  height: 460px;
+  left: 0px;
+  top: 2234px;
+}
+.footer-bar__button {
+  width: 270px;
+  height: 60px;
+  background: #ff8213;
+  border-radius: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
