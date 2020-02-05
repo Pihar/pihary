@@ -1,16 +1,17 @@
 body {
   max-width: 1920px;
+  margin: 0;
 }
+
 .header {
-  
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  position: sticky;
-  margin: 0;
-  z-index: 10;
-}
+} 
 .header-content{
   width: 60%;
   display: flex;
@@ -27,5 +28,11 @@ body {
 .header-social__logo{
   width: 19px;
   height: 19px;
+  object-fit: contain;
+}
+.main-content__image{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
   object-fit: contain;
 }
