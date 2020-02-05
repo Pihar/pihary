@@ -2,124 +2,34 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="styles/styles.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>HiF</title>
 </head>
 
 <body>
-  <header>
-    <div class="header">
-      <div class="header-name">
-        <div class="header-name__logo">
-          <img src="images/лого 2.png" alt="" />
-        </div>
-        <div class="header-name__news"><span>Новости</span></div>
-        <div class="header-name__sales"><span>Акции</span></div>
+  <div class="header">
+    <div class="header-content">
+      <div class="header-content__logo">
+        <img src="images/лого 2.png" alt="">
       </div>
-      <div class="header-social">
-        <div class="header-social__inst">
-          <img href="#" src="images/insta icon.png" />
-        </div>
-        <div class="header-social__fb">
-          <img src="images/facebook icon.png" />
-        </div>
-        <div class="header-social__vk">
-          <img src="images/vk icon.png" />
-        </div>
+      <div class="header-content__news"><span class="header-content__text">Новости</span></div>
+      <div class="header-content__stocks"><span class="header-content__text">Акции</span></div>
+    </div>
+    <div class="header-social">
+      <div class="header-social__insta">
+        <img class="header-social__logo" src="images/insta icon.png" alt="">
+      </div>
+      <div class="header-social__fb">
+        <img class="header-social__logo" src="images/facebook icon.png" alt="">
+      </div>
+      <div class="header_social__vk">
+        <img class="header-social__logo" src="images/vk icon.png" alt="">
       </div>
     </div>
-  </header>
-  <main>
-    <img class="info-block__img" src="images/head.png" />
-    <div class="info-block">
-      <div class="info-block__main-descript_h1">
-        <h1>Доставляем комплексные обеды в офисы по Минску</h1>
-      </div>
-      <div class="info-block__main-descript">
-        <div class="info-block__main-descript_delivery">
-          <img class="info-block__main-icon" src="images/Vectortime.png" alt="time" />
-          <span class="info-block__main-text">Время доставки: c 13:00 до 15:00</span>
-        </div>
-        <div class="info-block__main-descript_note">
-          <img class="info-block__main-icon" src="images/Vectorpen.png" alt="note" />
-          <span class="info-block__main-text">Запись день в день до 10:45</span>
-        </div>
-        <div class="info-block__main-descript_minimal">
-          <img class="info-block__main-icon" src="images/Groupfood.png" alt="Food" />
-          <span class="info-block__main-text">Минимальный заказ: от 3 комплексов</span>
-        </div>
-      </div>
-      <button class="info-block__order-button">Заказать обед</button>
-      <div class="info-block__other">
-        <div class="info-block__other-complex">
-          <img class="info-block__other-icon" src="images/salver.png" alt="salver" /><span
-            class="info-block__other-text">Комплексные обеды от 5 рублей</span>
-        </div>
-        <div class="info-block__other-deliv">
-          <img class="info-block__other-icon" src="images/truck.png" alt="truck" /><span
-            class="info-block__other-text">Заказ осуществляется день в
-            день</span>
-        </div>
-        <div class="info-block__other-pay">
-          <img class="info-block__other-icon" src="images/payment.png" alt="payment" /> <span
-            class="info-block__other-text">Возможность оплаты картой
-            или наличными</span>
-        </div>
-      </div>
-    </div>
-    <div class="button-bag">
-      <button class="button-bag__bagbin">
-        <img src="images/shopping-bag.png" alt="bag" /> Корзина: 0
-      </button>
-    </div>
-    <h3 class="main-menu__name">Обеденное меню</h3>
-    <div class="main-menu__buttons">
-      <button class="main-menu__buttons-all">Все</button>
-      <button class="main-menu__buttons-mars">Марс</button>
-      <button class="main-menu__buttons-boria">У Борисыча</button>
-      <button class="main-menu__buttons-faculty">Кафедра</button>
-    </div>
-    <div class="main-menu">
-      <div class="main-menu__complex-one"></div>
-      <div class="main-menu__complex-two"></div>
-      <div class="main-menu__complex-three"></div>
-      <div class="main-menu__complex-four"></div>
-      <div class="main-menu__complex-five"></div>
-      <div class="main-menu__complex-six"></div>
-    </div>
-    <a href="#" class="download-week">Скачать меню на неделю</a>
-    <a href="#" class="download-today">Скачать меню на сегодня</a>
-    <div class="order-lunch">
-      <button class="order-lunch__button">Заказать обед</button>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="footer-bar">
-      <h3 class="footer-bar__h3">
-        У вас появились вопросы? Свяжитесь с нами!
-      </h3>
-      <button class="footer-bar__button">Связаться</button>
-    </div>
-    <div class="footer-social">
-      <div class="footer-social__inst">
-        <img src="images/insta icon.png" alt="instagram" />
-      </div>
-      <div class="footer-social__fb">
-        <img src="images/facebook icon.png" alt="facebook" />
-      </div>
-      <div class="footer-social__vk">
-        <img src="images/vk icon.png" alt="vk" />
-      </div>
-    </div>
-    <hr />
-    <div class="footer-copyright">
-      &copy 2016-2019 Here is Food. Все права защищены.
-    </div>
-  </footer>
+  </div>
 </body>
 
 </html>
