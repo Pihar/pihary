@@ -2,22 +2,30 @@ body {
   max-width: 1920px;
 }
 .header {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffffff;
+  position: sticky;
+  margin: 0;
+  z-index: 10;
 }
 .header-content{
+  width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .header-social{
+  width: 15%;
+  padding-right: 20px;
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 }
 .header-social__logo{
-  width: 20px;
-  height: 20px;
-  
+  width: 19px;
+  height: 19px;
+  object-fit: contain;
 }
